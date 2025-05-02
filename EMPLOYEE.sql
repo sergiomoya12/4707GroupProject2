@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS EMPLOYEE (
+    Employee_ID INT PRIMARY KEY,
+    EFirst_name VARCHAR(255) NOT NULL,
+    ELast_name VARCHAR(255) NOT NULL,
+    Hire_date DATE
+);

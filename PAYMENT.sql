@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS PAYMENT (
+    Payment_ID INT PRIMARY KEY,
+    Amount DECIMAL(10,2),
+    Method VARCHAR(50),
+    Date DATE
+);

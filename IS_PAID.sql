@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS IS_PAID (
+    Order_ID INT,
+    Payment_ID INT,
+    PRIMARY KEY (Order_ID, Payment_ID),
+    FOREIGN KEY (Order_ID) REFERENCES ORDER(Order_ID),
+    FOREIGN KEY (Payment_ID) REFERENCES PAYMENT(Payment_ID)
+);
